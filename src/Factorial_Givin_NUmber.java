@@ -1,23 +1,19 @@
 import java.util.Scanner;
 public class Factorial_Givin_NUmber {
     public static int Factorl(int a){
+
         int i=1;
         int b=1;
         if (a<2){
-            return 1;
-        }else {
-            while (i<=a){
-
+                 return 1;
+         } else{
+                while (i<=a){
                 b=b*i;
                 i++;
             }
-            return b;
+                return b;
         }
-
     }
-
-
-
 
     public static void main(String[] args){
         //n × (n - 1)
@@ -27,10 +23,6 @@ public class Factorial_Givin_NUmber {
         number=input.nextInt();
 
         System.out.println(Factorl(number));
-
-
-
-
 
     }
 }
