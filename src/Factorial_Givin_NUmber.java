@@ -3,11 +3,17 @@ public class Factorial_Givin_NUmber {
     public static int Factorl(int a){
         int i=1;
         int b=1;
-     while (i<=a){
-         b=b*i;
-         i++;
-     }
-       return b;
+        if (a<2){
+            return 1;
+        }else {
+            while (i<=a){
+
+                b=b*i;
+                i++;
+            }
+            return b;
+        }
+
     }
 
 
