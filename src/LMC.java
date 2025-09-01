@@ -21,7 +21,7 @@ public class LMC {
                    return factor;
 
                 }
-                i++;
+               i++;
             }
         }
 }
