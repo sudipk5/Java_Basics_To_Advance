@@ -11,5 +11,6 @@ public class Variables {
         System.out.println(a+wishes);
         System.out.println(a+b+90);
 
+
     }
 }
