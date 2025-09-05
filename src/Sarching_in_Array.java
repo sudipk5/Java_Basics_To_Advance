@@ -3,35 +3,31 @@ import java.util.Scanner;
 public class Sarching_in_Array {
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
-        int [] arry=new int[10];
+        int a=0;
+        System.out.println("Enter array size");
+        a=input.nextInt();
+        int [] arry=new int[a];
+
+        System.out.println("Enter Numbers");
         int i=0;
-        System.out.println("Enter numbers");
+
         while (i<arry.length){
-
             arry[i]=input.nextInt();
-
-
             i++;
-
         }
         int f=0;
-        System.out.println("Enter your valu");
+        System.out.println("Enter your Sarching valu");
         f=input.nextInt();
 
         int j=0;
         while (j<arry.length){
 
 
-            if(f==arry[i]){
-                System.out.println("your valis index is "+j);
+            if(f==arry[j]){
+                System.out.println("your valis index is "+ (j+1));
 
-            }else {
-                j++;
             }
-
-
-
-
+                j++;
 
 
         }
