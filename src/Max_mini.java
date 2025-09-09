@@ -14,16 +14,19 @@ public class Max_mini {
            i++;
        }
        int b=array[1];
+       int c=array[1];
         int j=0;
         while (j<array.length){
             if(b>array[j]){b=array[j];}
+            if (c<array[j]){c=array[j];}
 
 
 
             j++;
         }
 
-        System.out.println("This is most small value " + b);
+        System.out.println("This is most mini value " + b);
+        System.out.println("This is most Max value " + c);
 
     }
 }
