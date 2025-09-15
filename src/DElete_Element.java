@@ -29,20 +29,33 @@ public class DElete_Element {
         System.out.println("Delete Any element");
         b=input.nextInt();
 
+
         int d=0;
         while (d<Array.length){
             if(b==Array[d]){
                 Array[d]=0;
             }
+
             d++;
+        }
+        int[] array=new int[Array.length-1];
+        int c=0;
+        while (c<array.length){
+            if(Array[c]==0){
+                array[c]=Array[c+1];
+            }else {
+                array[c]=Array[c];
+            }
+
+            c++;
         }
 
 
         System.out.println("This is your Update Array");
 
         int p=0;
-        while (p<Array.length){
-            System.out.println(Array[p]);
+        while (p<array.length){
+            System.out.println(array[p]);
 
             p++;
         }
