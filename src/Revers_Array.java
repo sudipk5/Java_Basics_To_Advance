@@ -7,7 +7,7 @@ public class Revers_Array {
        int a=0;
        System.out.println("Enter Array Size");
        a=input.nextInt();
-       int [] Array=new int[a];
+       int [] Array=new int[a]; 
 
        System.out.println("Enmter Array valus");
 
